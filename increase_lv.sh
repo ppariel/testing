@@ -138,4 +138,36 @@ if [[ $rc=XFS  ]]; then
 fi
 }
 
+################
+# MAIN PROGRAM
+################
+
+ #########################################
+ ## PREPARE ENVIRONEMENT
+ #########################################
+
+#if [ ! -d $WORKDIR ]; then  mkdir -p $WORKDIR && chmod -R 755 $WORKDIR ; fi
+#if [ -f  ]; then > $BASENAME_OUTPUT; fi
+#exec 2>> $ERROR_OUT
+#fn_chk
+
+ #########################################
+ ## MAIN PROGRAM
+ #########################################
+echo -e "$START_PINK $BANNER $ENDCOLOR"
+#sleep 3
+fn_chk_nb_param
+
+echo "fn_vg_check"
+fn_vg_check
+
+echo "fn_check_lv_exsting"
+fn_check_lv_exsting
+
+echo "fn_check_vgsize"
+fn_check_vgsize
+
+echo "fn_compare"
+fn_compare
+fn_chk_release
 
