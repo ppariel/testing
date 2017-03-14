@@ -143,15 +143,6 @@ fi
 ################
 
  #########################################
- ## PREPARE ENVIRONEMENT
- #########################################
-
-#if [ ! -d $WORKDIR ]; then  mkdir -p $WORKDIR && chmod -R 755 $WORKDIR ; fi
-#if [ -f  ]; then > $BASENAME_OUTPUT; fi
-#exec 2>> $ERROR_OUT
-#fn_chk
-
- #########################################
  ## MAIN PROGRAM
  #########################################
 echo -e "$START_PINK $BANNER $ENDCOLOR"
