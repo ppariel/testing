@@ -1,5 +1,5 @@
 #!/bin/bash
-## SCRIPT: wrapper lvextend for CESI team
+## SCRIPT: wrapper lvextend 
 
 #########################################
 ## VARIABLES / FUNCTIONS DECLARATION
